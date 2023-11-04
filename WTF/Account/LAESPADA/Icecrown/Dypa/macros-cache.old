@@ -1,0 +1,24 @@
+MACRO 16777221 "allin" INV_Misc_QuestionMark
+/use [nomod] ?????? ????????;
+/cast [mod:shift] ???????? ????? ????????;
+/cast [mod:alt] ?????? ???;
+/cast [mod:ctrl] ?????? ???   
+END
+MACRO 16777220 "aoe" INV_Misc_QuestionMark
+#showtooltip
+/cast Теневой колун
+/cast Семя порчи
+END
+MACRO 16777219 "cast" INV_Misc_QuestionMark
+#showtooltip
+/cast Господство скверны
+/cast Призыв стража скверны
+END
+MACRO 16777218 "dispell" Ability_Creature_Cursed_04
+#showtooltip
+/cast [@player] Пожирание магии
+END
+MACRO 16777217 "inner" INV_Misc_QuestionMark
+#showtooltip
+/cast Озарение @focus
+END

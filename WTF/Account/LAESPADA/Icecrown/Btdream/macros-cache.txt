@@ -1,0 +1,4 @@
+MACRO 16777217 "inner" INV_Misc_QuestionMark
+#showtooltip
+/cast [@enhance] Озарение
+END

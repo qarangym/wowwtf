@@ -1,0 +1,43 @@
+MACRO 3 "123" INV_Misc_QuestionMark
+/к LFM TOC25 SCROLL RUN NEED ALL 5.3+ [B+O+P RESS] /W ME GS + SPEC + ACHI
+END
+MACRO 5 "12322" INV_Misc_QuestionMark
+/SIT
+/STAND
+END
+MACRO 1 "brst" INV_Misc_QuestionMark
+#showtooltip
+/cast Полуперчатки капитана артиллерии
+/cast Кровавое неистовство
+END
+MACRO 10 "da" Ability_Creature_Disease_02
+/sit
+/stand
+END
+MACRO 9 "distnc" Ability_Druid_LunarGuidance
+/console CameraDistanceMaxFactor 10
+END
+MACRO 6 "ff" INV_Misc_QuestionMark
+#showtooltip Волшебный огонь
+/target Живое адское пламя
+/cast Волшебный огонь
+END
+MACRO 7 "focus" INV_Misc_QuestionMark
+#showtooltip
+/cast Проклятие рока
+/focus
+END
+MACRO 2 "qash" INV_Misc_QuestionMark
+#showtooltip Порыв
+/stopcasting
+/cast Порыв
+/cast Облик кошки
+END
+MACRO 4 "rec" INV_Misc_QuestionMark
+/recount show
+END
+MACRO 8 "urma" INV_Misc_QuestionMark
+#showtooltip попятиться 
+/stopcasting
+/castsequence reset=5 Облик кошки, попятиться
+END

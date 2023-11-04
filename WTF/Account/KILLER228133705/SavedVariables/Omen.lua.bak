@@ -1,0 +1,12 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Sshhiitt - Icecrown"] = "Sshhiitt - Icecrown",
+	},
+	["profiles"] = {
+		["Sshhiitt - Icecrown"] = {
+			["PositionY"] = 501.6666946826391,
+			["PositionX"] = 646.0185410115881,
+		},
+	},
+}

@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Mazdalama|Icecrown|Horde|80|DEATHKNIGHT", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Mazdalama - Icecrown"] = "Mazdalama - Icecrown",
+	},
+	["profiles"] = {
+		["Mazdalama - Icecrown"] = {
+		},
+	},
+}

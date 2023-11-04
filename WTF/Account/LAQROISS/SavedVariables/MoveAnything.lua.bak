@@ -1,0 +1,142 @@
+
+MoveAnything_CustomFrames = {
+}
+MoveAnything_CharacterSettings = {
+	["default"] = {
+		["MAOptions"] = {
+			["name"] = "MAOptions",
+			["pos"] = {
+				"RIGHT", -- [1]
+				"UIParent", -- [2]
+				"RIGHT", -- [3]
+				-511.5989115760518, -- [4]
+				-54.51851738379696, -- [5]
+			},
+		},
+		["PetFrame"] = {
+			["name"] = "PetFrame",
+			["pos"] = {
+				"BOTTOMLEFT", -- [1]
+				"UIParent", -- [2]
+				"BOTTOMLEFT", -- [3]
+				387.2592242247298, -- [4]
+				319.4327732577992, -- [5]
+			},
+		},
+		["RuneFrame"] = {
+			["name"] = "RuneFrame",
+			["pos"] = {
+				"TOP", -- [1]
+				"PlayerFrame", -- [2]
+				"BOTTOM", -- [3]
+				51.99998495480729, -- [4]
+				33.99997332897659, -- [5]
+			},
+		},
+		["MultiBarBottomRight"] = {
+			["name"] = "MultiBarBottomRight",
+			["pos"] = {
+				"BOTTOMLEFT", -- [1]
+				"UIParent", -- [2]
+				"BOTTOMLEFT", -- [3]
+				764.5185839929681, -- [4]
+				57.0000003419362, -- [5]
+			},
+		},
+		["PlayerFrame"] = {
+			["name"] = "PlayerFrame",
+			["pos"] = {
+				"TOPLEFT", -- [1]
+				"UIParent", -- [2]
+				"TOPLEFT", -- [3]
+				340.5062146561924, -- [4]
+				-402.2224660151324, -- [5]
+			},
+		},
+		["MultiBarRightHorizontalMover"] = {
+			["name"] = "MultiBarRightHorizontalMover",
+			["pos"] = {
+				"BOTTOM", -- [1]
+				"UIParent", -- [2]
+				"BOTTOM", -- [3]
+				-3.501426657938887e-005, -- [4]
+				250.0000077961453, -- [5]
+			},
+		},
+		["ShapeshiftButtonsMover"] = {
+			["name"] = "ShapeshiftButtonsMover",
+			["pos"] = {
+				"BOTTOMLEFT", -- [1]
+				"MainMenuBar", -- [2]
+				"TOPLEFT", -- [3]
+				240.1723084885456, -- [4]
+				47.40739119709879, -- [5]
+			},
+		},
+		["ActionBarUpButton"] = {
+			["name"] = "ActionBarUpButton",
+			["pos"] = {
+				"CENTER", -- [1]
+				"MainMenuBarArtFrame", -- [2]
+				"TOPLEFT", -- [3]
+				522.0000395278244, -- [4]
+				-22.00000150451927, -- [5]
+			},
+		},
+		["MultiBarLeftHorizontalMover"] = {
+			["name"] = "MultiBarLeftHorizontalMover",
+			["pos"] = {
+				"BOTTOM", -- [1]
+				"UIParent", -- [2]
+				"BOTTOM", -- [3]
+				-3.501426657938887e-005, -- [4]
+				285.0000060864643, -- [5]
+			},
+		},
+		["PetActionButtonsMover"] = {
+			["name"] = "PetActionButtonsMover",
+			["pos"] = {
+				"BOTTOMLEFT", -- [1]
+				"PetActionBarFrame", -- [2]
+				"BOTTOMLEFT", -- [3]
+				35.99998823739469, -- [4]
+				0.9999987006424492, -- [5]
+			},
+		},
+		["GameMenuButtonMoveAnything"] = {
+			["name"] = "GameMenuButtonMoveAnything",
+			["pos"] = {
+				"TOP", -- [1]
+				"GameMenuButtonContinue", -- [2]
+				"BOTTOM", -- [3]
+				0, -- [4]
+				-25.00001128389447, -- [5]
+			},
+		},
+		["MANudger"] = {
+			["name"] = "MANudger",
+			["pos"] = {
+				"BOTTOMLEFT", -- [1]
+				"UIParent", -- [2]
+				"BOTTOMLEFT", -- [3]
+				630.8642963968611, -- [4]
+				11.51253548357403, -- [5]
+			},
+		},
+		["TargetFrame"] = {
+			["name"] = "TargetFrame",
+			["pos"] = {
+				"TOPLEFT", -- [1]
+				"UIParent", -- [2]
+				"TOPLEFT", -- [3]
+				973.7531268526531, -- [4]
+				-224.444670243912, -- [5]
+			},
+		},
+	},
+}
+MoveAnything_UseCharacterSettings = nil
+MADB = {
+	["frameListRows"] = 18,
+	["collapsed"] = true,
+}

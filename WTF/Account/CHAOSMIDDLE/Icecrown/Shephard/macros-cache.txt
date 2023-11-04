@@ -1,0 +1,32 @@
+MACRO 16777219 "BS" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast Blood Strike(Rank 6)
+/cast !Rune Strike
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END
+MACRO 16777221 "CAM" INV_Misc_QuestionMark
+/console CameraDistanceMaxFactor 3.4
+/console CameraDistanceMax 50
+END
+MACRO 16777220 "hysteria" INV_Misc_QuestionMark
+#showtooltip Hysteria
+/cast [target=focus,help,nodead] Hysteria
+END
+MACRO 16777217 "IT" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast Icy Touch(Rank 5)
+/cast !Rune Strike
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END
+MACRO 16777218 "PS" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast Plague Strike(Rank 6)
+/cast !Rune Strike
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END

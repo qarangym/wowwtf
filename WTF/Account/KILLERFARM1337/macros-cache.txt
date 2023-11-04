@@ -1,0 +1,11 @@
+MACRO 1 "0" INV_Misc_QuestionMark
+/console cameradistancemaxfactor 10
+END
+MACRO 3 "loot" INV_Misc_QuestionMark
+/run for ci = 1, GetNumRaidMembers() do if (GetMasterLootCandidate(ci) == UnitName("Timurix")) then for li = 1, GetNumLootItems() do GiveMasterLoot(li, ci); end end end
+END
+MACRO 2 "run" INV_Misc_QuestionMark
+#showtooltip
+/cast Dash
+/cast Cat Form
+END

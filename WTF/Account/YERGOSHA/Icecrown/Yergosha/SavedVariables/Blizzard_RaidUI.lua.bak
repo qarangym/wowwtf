@@ -1,0 +1,13 @@
+
+RAID_PULLOUT_POSITIONS = {
+	["1"] = {
+		["y"] = 627.3580377676736,
+		["x"] = 254.9464732392868,
+		["point"] = "TOP",
+		["relativePoint"] = "BOTTOMLEFT",
+		["settings"] = {
+		},
+	},
+}
+RAID_SINGLE_POSITIONS = {
+}

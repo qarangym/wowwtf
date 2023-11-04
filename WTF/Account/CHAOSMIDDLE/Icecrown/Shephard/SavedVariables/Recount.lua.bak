@@ -1,0 +1,597 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Мал'Ганис"] = {
+			["GUID"] = "0xF1300067A500021C",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					645, -- [1]
+				},
+				["TimeDamage"] = {
+					6.55, -- [1]
+				},
+				["DOT_Time"] = {
+					6, -- [1]
+				},
+				["ActiveTime"] = {
+					6.55, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["TimeLast"] = {
+				["ActiveTime"] = 1669564520,
+				["TimeDamage"] = 1669564520,
+				["OVERALL"] = 1669564520,
+				["DOT_Time"] = 1669564520,
+				["Damage"] = 1669564520,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 23710.101,
+			["NextEventNum"] = 3,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+			},
+			["LastEvents"] = {
+				"Мал'Ганис Темная стая (УЗВ) Shardaddictd Tick -322 (Shadow)", -- [1]
+				"Мал'Ганис Темная стая (УЗВ) Shardaddictd Tick -323 (Shadow)", -- [2]
+			},
+			["Name"] = "Мал'Ганис",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+			},
+			["LastEventTimes"] = {
+				23707.047, -- [1]
+				23710.101, -- [2]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Темная стая (УЗВ)"] = {
+							["Details"] = {
+								["Shardaddictd"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeSpent"] = {
+						["Shardaddictd"] = {
+							["Details"] = {
+								["Темная стая (УЗВ)"] = {
+									["count"] = 6.55,
+								},
+							},
+							["amount"] = 6.55,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Attacks"] = {
+						["Темная стая (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 323,
+									["min"] = 322,
+									["count"] = 2,
+									["amount"] = 645,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 645,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 645,
+					},
+					["DamagedWho"] = {
+						["Shardaddictd"] = {
+							["Details"] = {
+								["Темная стая (УЗВ)"] = {
+									["count"] = 645,
+								},
+							},
+							["amount"] = 645,
+						},
+					},
+					["ActiveTime"] = 6.55,
+					["TimeDamaging"] = {
+						["Shardaddictd"] = {
+							["Details"] = {
+								["Темная стая (УЗВ)"] = {
+									["count"] = 6.55,
+								},
+							},
+							["amount"] = 6.55,
+						},
+					},
+					["TimeDamage"] = 6.55,
+					["DOT_Time"] = 6,
+					["Damage"] = 645,
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Темная стая (УЗВ)"] = {
+							["Details"] = {
+								["Shardaddictd"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeSpent"] = {
+						["Shardaddictd"] = {
+							["Details"] = {
+								["Темная стая (УЗВ)"] = {
+									["count"] = 6.55,
+								},
+							},
+							["amount"] = 6.55,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Attacks"] = {
+						["Темная стая (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 323,
+									["min"] = 322,
+									["count"] = 2,
+									["amount"] = 645,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 645,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 645,
+					},
+					["DamagedWho"] = {
+						["Shardaddictd"] = {
+							["Details"] = {
+								["Темная стая (УЗВ)"] = {
+									["count"] = 645,
+								},
+							},
+							["amount"] = 645,
+						},
+					},
+					["ActiveTime"] = 6.55,
+					["TimeDamaging"] = {
+						["Shardaddictd"] = {
+							["Details"] = {
+								["Темная стая (УЗВ)"] = {
+									["count"] = 6.55,
+								},
+							},
+							["amount"] = 6.55,
+						},
+					},
+					["TimeDamage"] = 6.55,
+					["DOT_Time"] = 6,
+					["Damage"] = 645,
+				},
+			},
+			["UnitLockout"] = 1669564520,
+			["LastActive"] = 1669564520,
+		},
+		["Осквернитель из рода Бесконечности"] = {
+			["GUID"] = "0xF130007E110001CF",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+				"???", -- [8]
+				"???", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					33798, -- [1]
+				},
+				["TimeDamage"] = {
+					37.63, -- [1]
+				},
+				["DOT_Time"] = {
+					36, -- [1]
+				},
+				["ActiveTime"] = {
+					37.63, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["TimeLast"] = {
+				["ActiveTime"] = 1669566317,
+				["TimeDamage"] = 1669566317,
+				["OVERALL"] = 1669566317,
+				["DOT_Time"] = 1669566317,
+				["Damage"] = 1669566317,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 25507.808,
+			["NextEventNum"] = 13,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+			},
+			["LastEvents"] = {
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Greenshawty Tick -3236 (Shadow)", -- [1]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Greenshawty Tick -3236 (Shadow)", -- [2]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Greenshawty Tick -3236 (Shadow)", -- [3]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Greenshawty Tick -3236 (Shadow)", -- [4]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Greenshawty Tick -3236 (Shadow)", -- [5]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Greenshawty Tick -3236 (Shadow)", -- [6]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Greenshawty Tick -3236 (Shadow)", -- [7]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Greenshawty Tick -3236 (Shadow)", -- [8]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Greenshawty Tick -3236 (Shadow)", -- [9]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Raveinheart Tick -1689 (Shadow)", -- [10]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Raveinheart Tick -1689 (Shadow)", -- [11]
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Lsza Tick -1296 (324 сопрот.) (Shadow)", -- [12]
+			},
+			["Name"] = "Осквернитель из рода Бесконечности",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+			},
+			["LastEventTimes"] = {
+				19136.062, -- [1]
+				19139.059, -- [2]
+				19142.11, -- [3]
+				19145.076, -- [4]
+				19148.073, -- [5]
+				19151.063, -- [6]
+				19154.097, -- [7]
+				19157.124, -- [8]
+				19160.143, -- [9]
+				22828.391, -- [10]
+				22831.429, -- [11]
+				25507.808, -- [12]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Разъедающая гниль (УЗВ)"] = {
+							["Details"] = {
+								["Lsza"] = {
+									["count"] = 3,
+								},
+								["Raveinheart"] = {
+									["count"] = 6,
+								},
+								["Greenshawty"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 324,
+					},
+					["TimeSpent"] = {
+						["Lsza"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Raveinheart"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 6.54,
+								},
+							},
+							["amount"] = 6.54,
+						},
+						["Greenshawty"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 27.59,
+								},
+							},
+							["amount"] = 27.59,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["Attacks"] = {
+						["Разъедающая гниль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 3236,
+									["min"] = 1296,
+									["count"] = 12,
+									["amount"] = 33798,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 33798,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 33798,
+					},
+					["DamagedWho"] = {
+						["Lsza"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 1296,
+								},
+							},
+							["amount"] = 1296,
+						},
+						["Raveinheart"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3378,
+								},
+							},
+							["amount"] = 3378,
+						},
+						["Greenshawty"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 29124,
+								},
+							},
+							["amount"] = 29124,
+						},
+					},
+					["ActiveTime"] = 37.63,
+					["TimeDamaging"] = {
+						["Lsza"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Raveinheart"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 6.54,
+								},
+							},
+							["amount"] = 6.54,
+						},
+						["Greenshawty"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 27.59,
+								},
+							},
+							["amount"] = 27.59,
+						},
+					},
+					["TimeDamage"] = 37.63,
+					["DOT_Time"] = 36,
+					["Damage"] = 33798,
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Разъедающая гниль (УЗВ)"] = {
+							["Details"] = {
+								["Lsza"] = {
+									["count"] = 3,
+								},
+								["Raveinheart"] = {
+									["count"] = 6,
+								},
+								["Greenshawty"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 324,
+					},
+					["TimeSpent"] = {
+						["Lsza"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Raveinheart"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 6.54,
+								},
+							},
+							["amount"] = 6.54,
+						},
+						["Greenshawty"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 27.59,
+								},
+							},
+							["amount"] = 27.59,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["Attacks"] = {
+						["Разъедающая гниль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 3236,
+									["min"] = 1296,
+									["count"] = 12,
+									["amount"] = 33798,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 33798,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 33798,
+					},
+					["DamagedWho"] = {
+						["Lsza"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 1296,
+								},
+							},
+							["amount"] = 1296,
+						},
+						["Raveinheart"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3378,
+								},
+							},
+							["amount"] = 3378,
+						},
+						["Greenshawty"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 29124,
+								},
+							},
+							["amount"] = 29124,
+						},
+					},
+					["ActiveTime"] = 37.63,
+					["TimeDamaging"] = {
+						["Lsza"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Raveinheart"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 6.54,
+								},
+							},
+							["amount"] = 6.54,
+						},
+						["Greenshawty"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 27.59,
+								},
+							},
+							["amount"] = 27.59,
+						},
+					},
+					["TimeDamage"] = 37.63,
+					["DOT_Time"] = 36,
+					["Damage"] = 33798,
+				},
+			},
+			["UnitLockout"] = 1669566317,
+			["LastActive"] = 1669566317,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

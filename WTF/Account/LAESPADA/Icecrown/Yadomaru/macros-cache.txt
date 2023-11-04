@@ -1,0 +1,11 @@
+MACRO 16777228 "_" INV_Misc_QuestionMark
+/cast Божественный щит
+/cancelaura Божественный щит
+END
+MACRO 16777217 "_" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover] Длань возмездия
+END
+MACRO 16777224 "_" INV_Misc_QuestionMark
+/use [@targettarget] Длань защиты(Уровень 3)
+END

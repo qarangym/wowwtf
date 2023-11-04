@@ -1,0 +1,44 @@
+MACRO 16777223 "1" INV_Misc_QuestionMark
+#showtooltip Стрела тьмы
+/cast Демоническое могущество 
+/cast Стрела тьмы
+END
+MACRO 16777225 "123" INV_Misc_QuestionMark
+#showtooltip
+/use могучий камень чар
+/use 16
+END
+MACRO 16777221 "allin" INV_Misc_QuestionMark
+/use [nomod] ?????? ????????;
+/cast [mod:shift] ???????? ????? ????????;
+/cast [mod:alt] ?????? ???;
+/cast [mod:ctrl] ?????? ???   
+END
+MACRO 16777220 "aoe" INV_Misc_QuestionMark
+#showtooltip
+/cast Теневой колун
+/cast Семя порчи
+END
+MACRO 16777222 "bes" INV_Misc_QuestionMark
+#showtooltip Призыв беса
+/cast Господство скверны
+/cast Призыв беса
+END
+MACRO 16777218 "dispell" Ability_Creature_Cursed_04
+#showtooltip
+/cast [@dypa] Пожирание магии
+END
+MACRO 16777219 "drov" INV_Misc_QuestionMark
+#showtooltip 
+/cast Господство скверны
+/cast Призыв стража скверны
+END
+MACRO 16777217 "inner" INV_Misc_QuestionMark
+#showtooltip
+/cast Озарение @focus
+END
+MACRO 16777224 "meta" INV_Misc_QuestionMark
+#showtooltip Метаморфоза
+/cast Метаморфоза
+/cast Жертвенный костер 
+END

@@ -1,0 +1,26 @@
+
+CPRDB2 = {
+	["profileKeys"] = {
+		["Mazdala - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Combo Points"] = {
+					["graphicsPos"] = {
+						["y"] = -54,
+						["x"] = -91,
+						["point"] = "CENTER",
+						["anchor"] = "CENTER",
+					},
+					["textPos"] = {
+						["y"] = -49,
+						["x"] = 55,
+						["point"] = "CENTER",
+						["anchor"] = "CENTER",
+					},
+				},
+			},
+		},
+	},
+}

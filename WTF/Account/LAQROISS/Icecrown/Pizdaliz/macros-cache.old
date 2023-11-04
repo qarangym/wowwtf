@@ -1,0 +1,93 @@
+MACRO 16777227 "bers+gl" INV_Misc_QuestionMark
+/cast Berserking(Racial)
+/use 10
+END
+MACRO 16777222 "bloodthirst" INV_Misc_QuestionMark
+/startattack
+/cast Bloodthirst
+/cast !Heroic Strike
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END
+MACRO 16777224 "clap" INV_Misc_QuestionMark
+#showtooltip Thunder Clap(Rank 9)
+/startattack
+/cast Battle Stance
+/use Thunder Clap(Rank 9)
+/cast Berserker Stance
+END
+MACRO 16777228 "Her+Cl" INV_Misc_QuestionMark
+/startattack
+/cast Bloodthirst
+/cast !Cleave
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END
+MACRO 16777226 "int" INV_Misc_QuestionMark
+/cast Defensive stance
+/cast Intervene
+/cast Berserker stance
+END
+MACRO 16777225 "rend" INV_Misc_QuestionMark
+#showtooltip Rend(Rank 10)
+/startattack
+/cast Battle Stance
+/use Rend(Rank 10)
+/use Berserker Rage
+/cast Berserker Stance
+END
+MACRO 16777223 "retala" INV_Misc_QuestionMark
+#showttooltips Retaliation
+/cast Battle Stance
+/use Retaliation
+/cast Berserker Stance
+END
+MACRO 16777230 "Slam" INV_Misc_QuestionMark
+/startattack
+/cast Slam
+/cast !Heroic Strike
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END
+MACRO 16777231 "Slam+Cl" INV_Misc_QuestionMark
+/startattack
+/cast Slam
+/cast !Cleave
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END
+MACRO 16777235 "sunder+cl" INV_Misc_QuestionMark
+/startattack
+/cast Sunder Armor
+/cast !Cleave
+END
+MACRO 16777234 "sunder+her" INV_Misc_QuestionMark
+/startattack
+/cast Sunder Armor
+/cast !Heroic Strike
+END
+MACRO 16777232 "SW" INV_Misc_QuestionMark
+#showtooltip Shield Wall
+/cast Defensive Stance
+/equipslot 17 Icecrown Glacial Wall
+/cast Shield Wall
+END
+MACRO 16777233 "SWcanc" INV_Misc_QuestionMark
+#showtooltip Berserker Stance
+/equipslot 17 Cryptmaker
+/cast Berserker Stance
+END
+MACRO 16777221 "whirlwind" INV_Misc_QuestionMark
+/startattack
+/cast Whirlwind
+/cast !Heroic Strike
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END
+MACRO 16777229 "Ww+Cl" INV_Misc_QuestionMark
+/startattack
+/cast Whirlwind
+/cast !Cleave
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END

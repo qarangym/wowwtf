@@ -1,0 +1,122 @@
+MACRO 15 "blood" INV_Misc_QuestionMark
+#showtooltip Blood Strike
+/startattack            
+/cast Blood Strike
+/cast !Rune Strike
+/cancelaura Hand of protection
+/cancelaura divine intervention
+/cancelaura Hand of salvation
+END
+MACRO 25 "burrrst" INV_Misc_QuestionMark
+#showtooltip
+/cast 10
+/cast Кровавое неистовство
+END
+MACRO 8 "burst" INV_Misc_QuestionMark
+#showtooltip
+/cast Blood Fury(Racial)
+/cast 10
+END
+MACRO 24 "cancela" INV_Misc_QuestionMark
+/cancelaura Blood Tap
+END
+MACRO 21 "coil" INV_Misc_QuestionMark
+/startattack
+/cast Death Coil
+/cast Claw
+END
+MACRO 14 "death" INV_Misc_QuestionMark
+#showtooltip death strike
+/startattack            
+/cast Death Strike
+/cast !Rune Strike
+/cancelaura Hand of protection
+/cancelaura divine intervention
+/cancelaura Hand of Salvation
+END
+MACRO 4 "icy" INV_Misc_QuestionMark
+#showtooltip Icy Touch
+/startattack            
+/cast Icy Touch(Rank 5)
+/cast !Rune Strike
+/cancelaura Hand of protection
+/cancelaura divine intervention
+/cancelaura Hand of Salvation
+END
+MACRO 2 "krovootvod" INV_Misc_QuestionMark
+#showtooltip
+/cast Blood Tap
+/cancelaura Blood Tap
+END
+MACRO 13 "leap" INV_Misc_QuestionMark
+/petattack
+/cast Leap
+END
+MACRO 5 "plague" INV_Misc_QuestionMark
+#showtooltip Plague Strike
+/startattack            
+/cast Plague Strike
+/cast !Rune Strike
+/cancelaura Hand of protection
+/cancelaura divine intervention
+/cancelaura Hand of Salvation
+END
+MACRO 22 "scourge" INV_Misc_QuestionMark
+#showtooltip Scourge Strike
+/startattack
+/cast Scourge Strike
+/cancelaura Hand of protection
+/cancelaura divine intervention
+END
+MACRO 17 "scourges" INV_Misc_QuestionMark
+#showtooltip Scourge Strike
+/startattack
+/cast Scourge Strike
+/cancelaura Hand of protection
+/cancelaura divine intervention
+/cast Claw
+END
+MACRO 18 "uhbs" INV_Misc_QuestionMark
+#showtooltip Blood Strike
+/startattack
+/cast Blood Strike
+/cancelaura Hand of protection
+/cancelaura divine intervention
+/cast Claw
+END
+MACRO 19 "uhicy" INV_Misc_QuestionMark
+#showtooltip Icy Touch
+/startattack
+/cast Icy Touch
+/cancelaura Hand of protection
+/cancelaura divine intervention
+/cast Claw
+END
+MACRO 20 "uhplague" INV_Misc_QuestionMark
+#showtooltip Plague Strike
+/startattack
+/cast Plague Strike
+/cancelaura Hand of protection
+/cancelaura divine intervention
+/cast Claw
+END
+MACRO 26 "unbarami" INV_Misc_QuestionMark
+#showtooltip
+/run UnitSwitchToVehicleSeat("player",2)
+/target Жидкий колчедан
+/cast Подцепить ящик
+/run UnitSwitchToVehicleSeat("player",1)
+END
+MACRO 23 "unbarm" INV_Misc_QuestionMark
+#showtooltip Unbreakable armor
+/cast Blood Fury(Racial)
+/use 10
+/cast Blood Tap
+/cast Unbreakable Armor
+END
+MACRO 3 "unequip" INV_Misc_QuestionMark
+/run PickupInventoryItem(16)PutItemInBackpack()
+END
+MACRO 10 "zoom" INV_Misc_QuestionMark
+/console cameradistancemaxfactor 30
+END

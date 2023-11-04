@@ -1,0 +1,14 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Timurix - Icecrown"] = "Timurix - Icecrown",
+	},
+	["profiles"] = {
+		["Timurix - Icecrown"] = {
+			["PositionW"] = 199.9999502140897,
+			["PositionH"] = 81.99999849548074,
+			["PositionY"] = 296.2348412332107,
+			["PositionX"] = 1135.896002157207,
+		},
+	},
+}

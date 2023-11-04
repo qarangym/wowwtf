@@ -1,0 +1,22 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Btdream - Icecrown"] = "Btdream - Icecrown",
+	},
+	["profiles"] = {
+		["Btdream - Icecrown"] = {
+			["PositionW"] = 200.0000552568895,
+			["PositionH"] = 81.99999849548074,
+			["PositionY"] = 233.8145230013983,
+			["PositionX"] = 471.4014130581741,
+			["MinimapIcon"] = {
+				["minimapPos"] = 239.3484933974759,
+			},
+			["UseFocus"] = true,
+			["Warnings"] = {
+				["Sound"] = false,
+				["Flash"] = false,
+			},
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+CPRDB2 = {
+	["profileKeys"] = {
+		["Shephard - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

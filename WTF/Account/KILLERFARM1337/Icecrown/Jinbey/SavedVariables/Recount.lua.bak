@@ -1,0 +1,79 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Jinbey"] = {
+			["GUID"] = "0x070000000087C469",
+			["type"] = "Self",
+			["TimeLast"] = {
+				["EnergyGain"] = 1685442098,
+				["OVERALL"] = 1685442098,
+			},
+			["Owner"] = false,
+			["enClass"] = "DRUID",
+			["TimeWindows"] = {
+				["EnergyGain"] = {
+					80, -- [1]
+				},
+			},
+			["Name"] = "Jinbey",
+			["LastActive"] = 1685442098,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["EnergyGain"] = 80,
+					["EnergyGainedFrom"] = {
+						["Jinbey"] = {
+							["Details"] = {
+								["Свирепость"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 80,
+						},
+					},
+					["EnergyGained"] = {
+						["Свирепость"] = {
+							["Details"] = {
+								["Jinbey"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 80,
+						},
+					},
+				},
+				["OverallData"] = {
+					["EnergyGain"] = 80,
+					["EnergyGainedFrom"] = {
+						["Jinbey"] = {
+							["Details"] = {
+								["Свирепость"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 80,
+						},
+					},
+					["EnergyGained"] = {
+						["Свирепость"] = {
+							["Details"] = {
+								["Jinbey"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 80,
+						},
+					},
+				},
+			},
+			["level"] = 80,
+			["UnitLockout"] = 1685442098,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

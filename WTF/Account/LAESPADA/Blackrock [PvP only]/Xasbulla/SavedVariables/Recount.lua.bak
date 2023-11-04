@@ -1,0 +1,79 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Xasbulla"] = {
+			["GUID"] = "0x0A00000000B90864",
+			["type"] = "Self",
+			["TimeLast"] = {
+				["OVERALL"] = 1669915562,
+				["RageGain"] = 1669915562,
+			},
+			["Owner"] = false,
+			["enClass"] = "WARRIOR",
+			["TimeWindows"] = {
+				["RageGain"] = {
+					40, -- [1]
+				},
+			},
+			["Name"] = "Xasbulla",
+			["LastActive"] = 1669915562,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["RageGain"] = 40,
+					["RageGained"] = {
+						["Кровавая ярость"] = {
+							["Details"] = {
+								["Xasbulla"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+					["RageGainedFrom"] = {
+						["Xasbulla"] = {
+							["Details"] = {
+								["Кровавая ярость"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+				},
+				["OverallData"] = {
+					["RageGain"] = 40,
+					["RageGained"] = {
+						["Кровавая ярость"] = {
+							["Details"] = {
+								["Xasbulla"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+					["RageGainedFrom"] = {
+						["Xasbulla"] = {
+							["Details"] = {
+								["Кровавая ярость"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+				},
+			},
+			["level"] = 80,
+			["UnitLockout"] = 1669915552,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

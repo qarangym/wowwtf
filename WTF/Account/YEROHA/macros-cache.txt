@@ -1,0 +1,6 @@
+MACRO 1 "123" Ability_Creature_Cursed_03
+/console cameradistancemaxfactor 10s
+END
+MACRO 2 "ret" Spell_Holy_RetributionAura
+/castsequence reset=20 
+END

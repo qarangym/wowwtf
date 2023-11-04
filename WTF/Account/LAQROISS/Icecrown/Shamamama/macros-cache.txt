@@ -1,0 +1,9 @@
+MACRO 16777218 "spam" INV_Misc_QuestionMark
+/hug
+END
+MACRO 16777217 "TF" INV_Misc_QuestionMark
+#showtooltip Tidal Force
+/cast Tidal Force
+/use Talisman of Resurgence
+ 
+END

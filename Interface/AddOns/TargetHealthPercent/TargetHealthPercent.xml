@@ -1,0 +1,78 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+	..\FrameXML\UI.xsd">
+
+	<Script file="TargetHealthPercent.lua"/>
+	<Frame name="TargetHealthPercent" parent="UIParent" hidden="false">
+		<Scripts>
+			<OnLoad>
+				TargetHealthPercent_OnLoad();
+			</OnLoad>
+			<OnEvent>
+				TargetHealthPercent_OnEvent(event);
+			</OnEvent>
+			<OnUpdate>
+				TargetHealthPercent_OnUpdate();
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+	<Frame name="TargetHealthPercentBar" parent="UIParent" hidden="true" movable="true">
+		<Size>
+			<AbsDimension x="50" y="15"/>
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture>
+					<Size>
+						<AbsDimension x="50" y="15"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOP">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				<Color r="0" g="0" b="0" a="1.0"/>
+				</Texture>		
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString name="TargetHealthPercentText" inherits="GameFontHighlight">
+					<Size>
+						<AbsDimension x="50" y="15"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOP">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>				
+			</Layer>
+		</Layers>		<Scripts>
+ 			<OnMouseDown>
+ 					if( arg1 == "LeftButton" and THP_STATUS == 2 ) then
+ 					this:StartMoving();
+ 				end
+ 			</OnMouseDown>
+ 			<OnMouseUp>
+ 				this:StopMovingOrSizing(); 				
+ 			</OnMouseUp>
+		</Scripts>
+	</Frame>
+
+	<Frame name="TargetHealthPercent_Variable_Frame" hidden="false">
+		<Scripts>
+			<OnUpdate>
+				TargetHealthPercent_LoadVariables(arg1)
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>

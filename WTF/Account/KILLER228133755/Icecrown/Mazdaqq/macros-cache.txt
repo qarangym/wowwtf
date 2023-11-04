@@ -1,0 +1,28 @@
+MACRO 16777221 "bloodtap" INV_Misc_QuestionMark
+/cast Blood Tap
+/cancelaura Blood Tap
+END
+MACRO 16777220 "fury" INV_Misc_QuestionMark
+/cast Blood Fury(Racial)
+/use 10
+END
+MACRO 16777222 "hs" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus] Истерия
+END
+MACRO 16777217 "lp" INV_Misc_QuestionMark
+#showtooltip Ледяное прикосновение
+/script UIErrorsFrame:Hide()
+/cast Ледяное прикосновение
+/cast !Рунический удар
+/script UIErrorsFrame:Clear()
+/script UIErrorsFrame:Show()
+END
+MACRO 16777218 "ps" INV_Misc_QuestionMark
+#showtooltip Удар чумы
+/script UIErrorsFrame:Hide()
+/cast Удар чумы
+/cast !Рунический удар
+/script UIErrorsFrame:Clear()
+/script UIErrorsFrame:Show()
+END

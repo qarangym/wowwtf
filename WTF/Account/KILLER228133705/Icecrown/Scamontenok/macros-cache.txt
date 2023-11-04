@@ -1,0 +1,40 @@
+MACRO 16777225 "asddsa" INV_Misc_QuestionMark
+/cancelaura Misdirection
+END
+MACRO 16777220 "call of the wild" INV_Misc_QuestionMark
+/cast Call of the Wild
+END
+MACRO 16777217 "flood" Spell_Shadow_ConeOfSilence
+/flood on
+/floodmsg <SenTinel> PvE Guild with 3PM st RT doing 5LoD 6RS 25hc 6Bane per week too boost guildies with BiG quality looking for ONLY core players our req is 6.3+ with LoD rdy ALT's Using Discord + DKP system wiss for more info
+/floodchan 5
+/flo
+END
+MACRO 16777227 "fs" Ability_Creature_Cursed_03
+/flood on
+/floodmsg FOLLOW THE BEST IRANIAN STREAMER https://www.twitch.tv/iglihost
+/floodchan 5
+/floodrate 60
+END
+MACRO 16777218 "ks" INV_Misc_QuestionMark
+/tar Blood Beast
+/cast Kill Shot(Rank 3)
+/targetlasttarget
+END
+MACRO 16777223 "ks2" INV_Misc_QuestionMark
+/tar Living Ember
+/cast Kill Shot(Rank 3)
+/targetlasttarget
+END
+MACRO 16777226 "ks3" INV_Misc_QuestionMark
+/tar Drudge Ghoul
+/cast Kill Shot(Rank 3)
+/targetlasttarget
+END
+MACRO 16777228 "md" INV_Misc_QuestionMark
+#showtooltip Misdirection
+/cast [@mouseover,help,nodead][target=focus, help] Misdirection
+END
+MACRO 16777224 "spit" Ability_Creature_Poison_02
+/spit
+END

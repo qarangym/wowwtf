@@ -1,0 +1,20 @@
+MACRO 16777219 "aoe" INV_Misc_QuestionMark
+#showtooltip Веер клинков
+/equipslot 17  Клинок отравленной крови
+/cast веер клинков
+END
+MACRO 16777218 "burst" INV_Misc_QuestionMark
+#showtooltip
+/cast Перчатки скрытности Алдрианы 
+/cast Берсерк
+END
+MACRO 16777217 "graph" INV_Misc_QuestionMark
+/console groundEffectDensity 256 
+/console groundEffectDist 140 
+/console detailDoodadAlpha 100 
+/console horizonfarclip 2112 
+/console farclip 777 
+/console characterAmbient 0 
+/console smallcull 0 
+/console skycloudlod 3
+END

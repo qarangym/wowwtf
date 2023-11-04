@@ -1,0 +1,85 @@
+
+SexyMapDB = {
+	["profileKeys"] = {
+		["Btdream - Icecrown"] = "Btdream - Icecrown",
+	},
+	["namespaces"] = {
+		["Ping"] = {
+		},
+		["Coordinates"] = {
+		},
+		["Buttons"] = {
+			["profiles"] = {
+				["Btdream - Icecrown"] = {
+					["calendar"] = {
+						["hide"] = "always",
+					},
+					["worldmap"] = {
+						["hide"] = "never",
+					},
+					["difficulty"] = {
+						["hide"] = "always",
+					},
+					["mapclock"] = {
+						["hide"] = "always",
+					},
+					["mail"] = {
+						["hide"] = "always",
+					},
+					["dragPositions"] = {
+						["MinimapZoomIn"] = -29.07800946000371,
+						["LibDBIcon10_Omen"] = -6.759904864163131,
+						["GameTimeFrame"] = 25.97416008252988,
+						["TimeManagerClockButton"] = -89.48144538238657,
+						["MinimapZoomOut"] = -46.27124376385525,
+						["LibDBIcon10_DBM"] = 220.8219501468525,
+						["LibDBIcon10_WeakAuras"] = 240.6370136788215,
+						["MiniMapLFGFrame"] = 179.7385593766216,
+						["MiniMapTrackingButton"] = -62.0805292418922,
+						["FuBarPluginAtlasLootFuFrameMinimapButton"] = 200.5455370851467,
+					},
+					["lfg"] = {
+						["hide"] = "always",
+					},
+				},
+			},
+		},
+		["AutoZoom"] = {
+		},
+		["Shapes"] = {
+			["profiles"] = {
+				["Btdream - Icecrown"] = {
+					["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+				},
+			},
+		},
+		["Fader"] = {
+		},
+		["Movers"] = {
+		},
+		["Borders"] = {
+			["profiles"] = {
+				["Btdream - Icecrown"] = {
+					["applyPreset"] = false,
+					["backdrop"] = {
+						["show"] = true,
+						["settings"] = {
+							["edgeSize"] = 17,
+						},
+						["scale"] = 1.07,
+					},
+				},
+			},
+		},
+		["HudMap"] = {
+			["profiles"] = {
+				["Btdream - Icecrown"] = {
+					["setNewScale"] = true,
+					["scale"] = 1.4,
+				},
+			},
+		},
+		["ZoneText"] = {
+		},
+	},
+}

@@ -1,0 +1,12 @@
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+Dominos: enabled
+Dominos_Cast: enabled
+Dominos_Config: enabled
+Dominos_Roll: enabled
+Dominos_Totems: enabled
+Dominos_XP: enabled
+ShadowedUF_Options: enabled
+ShadowedUF_ClassPower: enabled
+Stubby: enabled
+ShadowedUnitFrames: enabled

@@ -1,0 +1,129 @@
+MACRO 14 "123" INV_Misc_QuestionMark
+#showtooltip Misdirection
+/cast [target=focus, help] Misdirection
+END
+MACRO 15 "aimed" INV_Misc_QuestionMark
+/startattack
+/cancelaura Hand of Protection
+/cancelaura Divine intervention
+/cast Aimed Shot
+/cast Silencing Shot
+/cast Kill Command
+/cast Raptor Strike(Rank 11)
+END
+MACRO 34 "bers" INV_Misc_QuestionMark
+/cast Berserking
+/use 10
+END
+MACRO 29 "bur" INV_Misc_QuestionMark
+/cast Furious Howl(Rank 6)
+/use 10
+END
+MACRO 9 "Chimera" INV_Misc_QuestionMark
+/startattack
+/cancelaura Hand of Protection
+/cancelaura Divine intervention
+/cast Chimera Shot(Rank 1)
+/cast Silencing Shot
+/cast Kill Command
+/cast Raptor Strike(Rank 11)
+END
+MACRO 33 "feed" INV_Misc_QuestionMark
+#showtooltip
+/cast Feed Pet
+/use Salted Venison
+END
+MACRO 17 "focus" Ability_CheapShot
+/focus [@mouseover]
+END
+MACRO 24 "FON" INV_Misc_QuestionMark
+#showtooltip fan of knives
+/equipslot 17 item:50012
+/cast fan of knives
+END
+MACRO 38 "killshott" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] Kill Shot
+END
+MACRO 41 "ks" INV_Misc_QuestionMark
+#showtooltip Kill Shot
+/cast Kill Shot
+/cast Silencing Shot
+/cast Kill Command
+/cast Raptor Strike(Rank 11)
+END
+MACRO 40 "Master's Call" INV_Misc_QuestionMark
+#showtooltip Master's Call
+/cast Follow
+/cast [@mouseover,help,nodead][]Master's Call
+END
+MACRO 32 "petattack" Ability_Druid_Dash
+/petattack 
+/cast Dash
+END
+MACRO 35 "pot" INV_Misc_QuestionMark
+/use Flame Cap
+/use Potion of Speed
+END
+MACRO 42 "serpent" INV_Misc_QuestionMark
+/startattack
+/cancelaura Hand of Protection
+/cancelaura Divine intervention
+/cast Serpent sting
+/cast Silencing Shot
+/cast Kill Command
+/cast Raptor Strike(Rank 11)
+END
+MACRO 23 "shambling" Ability_BullRush
+/tar Shambling Horror
+/cast Tranquilizing shot
+/targetlasttarget
+END
+MACRO 37 "speed" INV_Misc_QuestionMark
+#showtooltip
+/castsequence !Aspect of the Cheetah, !Aspect of the Pack
+END
+MACRO 25 "SS" INV_Misc_QuestionMark
+#showtooltip sinister strike
+/equipslot 17 Scourgeborne Waraxe
+/cast sinister strike
+END
+MACRO 7 "switch" INV_Misc_QuestionMark
+#showtooltip
+/castsequence !Aspect of the Dragonhawk(Rank 2), !Aspect of the Viper
+END
+MACRO 22 "Target infernal" Spell_Shadow_CurseOfTounges
+/tar living infe
+/startattack
+END
+MACRO 36 "tmw" Ability_Ambush
+/tmw
+END
+MACRO 16 "TOT" INV_Misc_QuestionMark
+#showtooltip Tricks of the Trade
+/cast [target=focus, help] Tricks of the Trade
+END
+MACRO 18 "Tranq" INV_Misc_QuestionMark
+#showtooltip Tranquilizing Shot
+/cast [target=focus, help] Tranquilizing Shot
+END
+MACRO 12 "unequip" INV_Misc_QuestionMark
+/run PickupInventoryItem(16)PutItemInBackpack()
+/run PickupInventoryItem(18)PutItemInBackpack()
+END
+MACRO 13 "wolves" INV_Misc_QuestionMark
+/run PickupStablePet(1); ClickStablePet(0)
+/cast Call Pet
+/cancelaura Call Stabled Pet
+END
+MACRO 8 "Быстр. стрельба+" Ability_Hunter_RunningShot
+#showtooltip
+/cast Rapid Fire
+/cast Kill Command
+/use 10
+/cast Furious Howl(Rank 6)
+END
+MACRO 1 "Отадление камеры" INV_Misc_QuestionMark
+/console CameraDistanceMaxFactor 5
+/console CameraDistanceMax 50
+END

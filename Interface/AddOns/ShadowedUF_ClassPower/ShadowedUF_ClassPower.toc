@@ -1,0 +1,8 @@
+## Interface: 30100
+## Title: Shadowed UF Class Colored Power Bars
+## Notes: Adds class colored power bars to the awesome Shadowed Unit Frames
+## Author: moniker
+## SavedVariables: ShadowedUFDB
+## Dependencies: ShadowedUnitFrames
+
+ShadowedUF_ClassPower.lua

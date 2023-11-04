@@ -1,0 +1,22 @@
+MACRO 16777220 "123" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus] Маленькие хитрости
+END
+MACRO 16777219 "aoe" INV_Misc_QuestionMark
+#showtooltip Веер клинков
+/equipslot 17 item:50012
+/cast веер клинков
+END
+MACRO 16777218 "burst" INV_Misc_QuestionMark
+#showtooltip
+/cast Перчатки скрытности Алдрианы 
+/cast Кровавое неистовство
+END
+MACRO 16777217 "graph" INV_Misc_QuestionMark
+/equipslot 17  Зов хаоса, топор королей Лордерона
+END
+MACRO 16777221 "WE" INV_Misc_QuestionMark
+#showtooltip коварный удар
+/equipslot 17 Кованая плетью секира
+/cast Коварный удар
+END

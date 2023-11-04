@@ -1,0 +1,48 @@
+
+CompactRaidFrameDB = {
+	["profileKeys"] = {
+		["Yergosha - Icecrown"] = "Yergosha - Icecrown",
+	},
+	["char"] = {
+		["Yergosha - Icecrown"] = {
+			["cvar"] = {
+				["CVAR_SET_ACTIVE_CUF_PROFILE"] = "Основной",
+				["useCompactPartyFrames"] = "1",
+			},
+			["profile"] = {
+				{
+					["autoActivate15Players"] = 1,
+					["autoActivatePvP"] = 1,
+					["shown"] = true,
+					["displayAggroHighlight"] = true,
+					["autoActivateSpec2"] = 1,
+					["displayPets"] = false,
+					["isDynamic"] = true,
+					["autoActivate40Players"] = 1,
+					["autoActivatePvE"] = 1,
+					["autoActivate3Players"] = 1,
+					["locked"] = true,
+					["displayMainTankAndAssist"] = false,
+					["autoActivateSpec1"] = 1,
+					["sortBy"] = "group",
+					["autoActivate25Players"] = 1,
+					["displayBorder"] = true,
+					["frameHeight"] = 36,
+					["displayNonBossDebuffs"] = true,
+					["displayHealPrediction"] = true,
+					["displayPowerBar"] = false,
+					["displayOnlyDispellableDebuffs"] = false,
+					["healthText"] = "perc",
+					["keepGroupsTogether"] = 1,
+					["autoActivate5Players"] = 1,
+					["name"] = "Основной",
+					["horizontalGroups"] = false,
+					["autoActivate2Players"] = 1,
+					["autoActivate10Players"] = 1,
+					["frameWidth"] = 72,
+					["useClassColors"] = 1,
+				}, -- [1]
+			},
+		},
+	},
+}

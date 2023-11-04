@@ -1,0 +1,18 @@
+MACRO 2 "min" Ability_CheapShot
+/console groundEffectDensity 16  
+/console groundEffectDist 1  
+/console horizonfarclip 1305  
+/console farclip 177  
+/console characterAmbient 1  
+/console smallcull 1  
+/console skycloudlod 1  
+/console detailDoodadAlpha 1
+END
+MACRO 1 "search" INV_Misc_QuestionMark
+/run local f=AuG or CreateFrame("Frame","AuG") f.m,f.t=1,0 f:SetScript("OnUpdate",function(s,e) f.t=f.t+e if f.t>2.5 and not InCombatLockdown() then f.t=0 f.m=3-f.m SetTracking(f.m) end end) f:Show()
+END
+MACRO 3 "рывок" Ability_Warrior_Charge
+#showtooltip Рывок
+/cast Рывок
+/cast Кровопускание
+END

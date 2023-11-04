@@ -1,0 +1,11 @@
+MACRO 16777219 "flood" Ability_Creature_Poison_01
+/flood on
+/floodmsg WTS Female Troll Hunter ->EVERYTHINGOK<-  with bis items/trinkets and 280% fly, just  for 232 coins, i can remove some items as u wish 
+/floodchan 6
+/floodrate 60
+END
+MACRO 16777220 "tf+gl" INV_Misc_QuestionMark
+#showtooltip Tiger's Fury(Rank 6)
+/cast Tiger's Fury(Rank 6)
+/use 10
+END

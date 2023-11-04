@@ -1,0 +1,4 @@
+Poisoner: disabled
+ComboPointsRedux_Options: disabled
+ComboPointsRedux: disabled
+Recount: enabled

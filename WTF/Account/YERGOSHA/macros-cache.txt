@@ -1,0 +1,67 @@
+MACRO 1 "123" INV_Misc_QuestionMark
+/console groundEffectDensity 256 
+/console groundEffectDist 140 
+/console detailDoodadAlpha 100 
+/console horizonfarclip 2112 
+/console farclip 777 
+/console characterAmbient 0 
+/console smallcull 0 
+/console skycloudlod 3
+END
+MACRO 2 "123" Ability_Creature_Cursed_03
+/console cameradistancemaxfactor 10s
+END
+MACRO 3 "aoe" Ability_Warrior_Cleave
+/Startattack
+/castsequence reset=target Whirlwind, Bloodthirst, Bloodthirst
+/cast Cleave
+END
+MACRO 9 "Cl+B" INV_Misc_QuestionMark
+/startattack 
+/cast Bloodthirst 
+/cast !Cleave
+/cancelaura Divine Intervention
+/cancelaura Hand of Protection
+END
+MACRO 10 "CL+W" INV_Misc_QuestionMark
+/startattack 
+/cast Whirlwind
+/cast !Cleave
+/cancelaura Divine Intervention
+/cancelaura Hand of Protection
+END
+MACRO 8 "HS+B" Ability_Rogue_Ambush
+/startattack 
+/cast Bloodthirst
+/cast !Heroic strike
+/cancelaura Divine Intervention
+/cancelaura Hand of Protection
+END
+MACRO 7 "HS+W" Ability_Rogue_Ambush
+/startattack 
+/cast Whirlwind
+/cast !Heroic strike
+/cancelaura Divine Intervention
+/cancelaura Hand of Protection
+END
+MACRO 12 "Intervene" INV_Misc_QuestionMark
+/cast Defensive stance
+/cast Intervene
+/cast Berserker stance
+END
+MACRO 5 "Rend" Ability_Gouge
+/castsequence reset=5 Battle Stance, Berserker Stance, nil
+/cast Rend
+/stopcasting [stance:1]
+END
+MACRO 11 "Retaliation" INV_Misc_QuestionMark
+#showttooltips Retaliation
+/cast Battle Stance
+/use Retaliation
+/cast Berserker Stance
+END
+MACRO 4 "ST" Ability_Rogue_Ambush
+/Startattack
+/castsequence reset=target Whirlwind, Bloodthirst, Bloodthirst
+/cast Heroic Strike
+END

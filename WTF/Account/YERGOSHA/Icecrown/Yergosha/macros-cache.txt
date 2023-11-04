@@ -1,0 +1,8 @@
+MACRO 16777218 "." INV_Misc_QuestionMark
+#showtooltip
+/cancelaura Ледяная глыба 
+/cast Скачок
+END
+MACRO 16777217 "focus " INV_Misc_QuestionMark
+#showtooltip
+END

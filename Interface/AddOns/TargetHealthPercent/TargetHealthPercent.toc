@@ -1,0 +1,9 @@
+## Interface: 32000
+## Title: TargetHealthPercent
+## Notes: Display a small frame with the targets health in a percent
+## Version: v3
+## Author: subwired
+## SavedVariablesPerCharacter: TargetHealthPercent_Save
+## OptionalDeps:
+## Dependencies: 
+TargetHealthPercent.xml

@@ -1,0 +1,18 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Mazdalama - Icecrown"] = "Mazdalama - Icecrown",
+	},
+	["profiles"] = {
+		["Mazdalama - Icecrown"] = {
+			["PositionW"] = 200.0000027354896,
+			["PositionH"] = 81.99999849548074,
+			["PositionY"] = 357.864152168173,
+			["PositionX"] = 1192.783821165727,
+			["Warnings"] = {
+				["Sound"] = false,
+				["Flash"] = false,
+			},
+		},
+	},
+}

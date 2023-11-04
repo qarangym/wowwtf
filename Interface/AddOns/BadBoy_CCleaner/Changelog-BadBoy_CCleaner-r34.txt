@@ -1,0 +1,64 @@
+------------------------------------------------------------------------
+r34 | funkydude | 2010-09-08 00:47:26 +0000 (Wed, 08 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/BadBoy_CCleaner.lua
+   M /trunk/BadBoy_CCleaner.toc
+   M /trunk/SimpleOptions.lua
+
+Add "dirge" to the default list, sort the list alphabetically.
+------------------------------------------------------------------------
+r32 | funkydude | 2010-08-16 02:55:18 +0000 (Mon, 16 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/BadBoy_CCleaner.lua
+   M /trunk/BadBoy_CCleaner.toc
+   M /trunk/SimpleOptions.lua
+
+minor tweaks/bugfixes
+------------------------------------------------------------------------
+r30 | funkydude | 2010-08-13 02:51:07 +0000 (Fri, 13 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/BadBoy_CCleaner.lua
+   M /trunk/BadBoy_CCleaner.toc
+   M /trunk/SimpleOptions.lua
+
+bugfix a possible login error
+------------------------------------------------------------------------
+r28 | funkydude | 2010-08-13 00:09:50 +0000 (Fri, 13 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/BadBoy_CCleaner.lua
+   M /trunk/SimpleOptions.lua
+
+Add public channel raid icon removal functionality.
+------------------------------------------------------------------------
+r27 | funkydude | 2010-08-12 23:20:28 +0000 (Thu, 12 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/SimpleOptions.lua
+
+Don't allow blank nothing to be added to the db.
+------------------------------------------------------------------------
+r26 | funkydude | 2010-08-12 23:13:11 +0000 (Thu, 12 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/BadBoy_CCleaner.toc
+
+fix savedvars
+------------------------------------------------------------------------
+r25 | funkydude | 2010-08-12 23:09:21 +0000 (Thu, 12 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/SimpleOptions.lua
+
+enable word input
+------------------------------------------------------------------------
+r24 | funkydude | 2010-08-12 22:55:03 +0000 (Thu, 12 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/SimpleOptions.lua
+
+Disallow input of capital characters and Lua "magic" characters.
+------------------------------------------------------------------------
+r23 | funkydude | 2010-08-12 21:57:00 +0000 (Thu, 12 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/BadBoy_CCleaner.lua
+   M /trunk/BadBoy_CCleaner.toc
+   A /trunk/SimpleOptions.lua
+
+add some untested alpha v3 work
+------------------------------------------------------------------------

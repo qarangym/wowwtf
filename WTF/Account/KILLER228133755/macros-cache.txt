@@ -1,0 +1,54 @@
+MACRO 4 "brrrrrrrr" INV_Misc_QuestionMark
+/castsequence reset=5 Ледяное прикосновение, Удар чумы, Удар плети, Кровавый удар, Призыв горгульи, Усиление рунического оружия, Удар плети. Удар плети, Кровавый удар, Кровавый удар
+END
+MACRO 9 "burst" INV_Misc_QuestionMark
+#showtooltip
+/cast Освященные рукавицы повелителя Плети
+/cast Кровавое неистовство
+END
+MACRO 7 "cum" Ability_CheapShot
+/console CameraDistanceMaxFactor 3.4
+/console CameraDistanceMax 50
+END
+MACRO 10 "da" Ability_Creature_Disease_02
+/sit
+/stand
+END
+MACRO 3 "dmg" Ability_Creature_Cursed_05
+/recount show
+END
+MACRO 13 "END" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt] Мясорубка; [mod:shift] Рваная рана; Потрошение
+END
+MACRO 14 "Focus" INV_Misc_QuestionMark
+/focus
+END
+MACRO 2 "LFM" INV_Misc_QuestionMark
+/y LFM TOC25 SCROLL RUN NEED ALL 5.3+ [B+O+P RESS] /W ME GS + SPEC + ACHI
+END
+MACRO 5 "rune strike" Spell_DeathKnight_DarkConviction
+/cast Удар в сердце
+/cast Рунический удар 
+END
+MACRO 15 "tot" INV_Misc_QuestionMark
+#showtooltip
+/cast [@holypusy] Маленькие хитрости
+END
+MACRO 11 "Коварный удар" INV_Misc_QuestionMark
+#showtooltip коварный удар
+/equipslot 17 Кованая плетью секира
+/cast Коварный удар
+END
+MACRO 1 "Кровоотвод + " Spell_DeathKnight_BloodTap
+#showtooltip
+/cast Кровоотвод
+/cancelaura Кровоотвод
+END
+MACRO 12 "Хитрости" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus] Маленькие хитрости
+END
+MACRO 6 "гун" Ability_Creature_Cursed_02
+/run PickupInventoryItem(16)PutItemInBackpack()
+END

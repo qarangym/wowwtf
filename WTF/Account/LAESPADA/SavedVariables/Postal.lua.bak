@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Btdream|Icecrown|Horde|26|DRUID", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Btdream - Icecrown"] = "Btdream - Icecrown",
+	},
+	["profiles"] = {
+		["Btdream - Icecrown"] = {
+		},
+	},
+}

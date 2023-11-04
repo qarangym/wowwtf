@@ -1,0 +1,2035 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Yadomaru"] = {
+			["GUID"] = "0x07000000008A3B16",
+			["TimeLast"] = {
+				["TimeDamage"] = 1673783296,
+				["ActiveTime"] = 1673783296,
+				["ManaGain"] = 1673783200,
+				["OVERALL"] = 1673783296,
+				["DamageTaken"] = 1673783249,
+				["Damage"] = 1673783296,
+			},
+			["LastAttackedBy"] = "Маназмей",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					113.69, -- [1]
+				},
+				["TimeDamage"] = {
+					113.69, -- [1]
+				},
+				["ManaGain"] = {
+					19, -- [1]
+				},
+				["DamageTaken"] = {
+					105, -- [1]
+				},
+				["Damage"] = {
+					391, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Yadomaru",
+			["level"] = 1,
+			["LastDamageAbility"] = "Атака ближнего боя",
+			["LastFightIn"] = 4,
+			["LastEventNum"] = {
+				0.8928571428571429, -- [1]
+				1.785714285714286, -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				0.8928571428571429, -- [5]
+				0.8928571428571429, -- [6]
+				0.8928571428571429, -- [7]
+				nil, -- [8]
+				nil, -- [9]
+				nil, -- [10]
+				0.8928571428571429, -- [11]
+				nil, -- [12]
+				0.8928571428571429, -- [13]
+				nil, -- [14]
+				nil, -- [15]
+				0.8928571428571429, -- [16]
+				0.8928571428571429, -- [17]
+				nil, -- [18]
+				nil, -- [19]
+				0.8928571428571429, -- [20]
+				0.8928571428571429, -- [21]
+				0.8928571428571429, -- [22]
+				0.8928571428571429, -- [23]
+				[26] = 0.8928571428571429,
+				[27] = 0.8928571428571429,
+				[30] = 0.8928571428571429,
+				[31] = 0.8928571428571429,
+				[36] = 0.8928571428571429,
+				[37] = 0.8928571428571429,
+				[38] = 0.8928571428571429,
+				[39] = 0.8928571428571429,
+				[40] = 0.8928571428571429,
+				[41] = 0.8928571428571429,
+				[43] = 0.8928571428571429,
+				[44] = 0.8928571428571429,
+				[45] = 0.8928571428571429,
+				[46] = 0.8928571428571429,
+				[47] = 0.8928571428571429,
+				[50] = 0.8928571428571429,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 1,
+			["LastAbility"] = 220371.672,
+			["Owner"] = false,
+			["LastEventHealth"] = {
+				"101 (90%)", -- [1]
+				"101 (90%)", -- [2]
+				"97 (86%)", -- [3]
+				"97 (86%)", -- [4]
+				"97 (86%)", -- [5]
+				"97 (86%)", -- [6]
+				"97 (86%)", -- [7]
+				"94 (83%)", -- [8]
+				"94 (83%)", -- [9]
+				"94 (83%)", -- [10]
+				"94 (83%)", -- [11]
+				"93 (83%)", -- [12]
+				"93 (83%)", -- [13]
+				"92 (82%)", -- [14]
+				"92 (82%)", -- [15]
+				"92 (82%)", -- [16]
+				"92 (82%)", -- [17]
+				"90 (80%)", -- [18]
+				"90 (80%)", -- [19]
+				"90 (80%)", -- [20]
+				"89 (79%)", -- [21]
+				"88 (78%)", -- [22]
+				"88 (78%)", -- [23]
+				"86 (76%)", -- [24]
+				"86 (76%)", -- [25]
+				"86 (76%)", -- [26]
+				"86 (76%)", -- [27]
+				"84 (75%)", -- [28]
+				"84 (75%)", -- [29]
+				"84 (75%)", -- [30]
+				"83 (74%)", -- [31]
+				"82 (73%)", -- [32]
+				"82 (73%)", -- [33]
+				"112 (100%)", -- [34]
+				"112 (100%)", -- [35]
+				"112 (100%)", -- [36]
+				"112 (100%)", -- [37]
+				"110 (98%)", -- [38]
+				"109 (97%)", -- [39]
+				"109 (97%)", -- [40]
+				"107 (95%)", -- [41]
+				"106 (94%)", -- [42]
+				"106 (94%)", -- [43]
+				"106 (94%)", -- [44]
+				"104 (92%)", -- [45]
+				"104 (92%)", -- [46]
+				"102 (91%)", -- [47]
+				"101 (90%)", -- [48]
+				"101 (90%)", -- [49]
+				"101 (90%)", -- [50]
+			},
+			["NextEventNum"] = 36,
+			["LastEventHealthNum"] = {
+				90.17857142857143, -- [1]
+				90.17857142857143, -- [2]
+				86.60714285714286, -- [3]
+				86.60714285714286, -- [4]
+				86.60714285714286, -- [5]
+				86.60714285714286, -- [6]
+				86.60714285714286, -- [7]
+				83.92857142857143, -- [8]
+				83.92857142857143, -- [9]
+				83.92857142857143, -- [10]
+				83.92857142857143, -- [11]
+				83.03571428571429, -- [12]
+				83.03571428571429, -- [13]
+				82.14285714285714, -- [14]
+				82.14285714285714, -- [15]
+				82.14285714285714, -- [16]
+				82.14285714285714, -- [17]
+				80.35714285714286, -- [18]
+				80.35714285714286, -- [19]
+				80.35714285714286, -- [20]
+				79.46428571428571, -- [21]
+				78.57142857142857, -- [22]
+				78.57142857142857, -- [23]
+				76.78571428571429, -- [24]
+				76.78571428571429, -- [25]
+				76.78571428571429, -- [26]
+				76.78571428571429, -- [27]
+				75, -- [28]
+				75, -- [29]
+				75, -- [30]
+				74.10714285714286, -- [31]
+				73.21428571428571, -- [32]
+				73.21428571428571, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				98.21428571428571, -- [38]
+				97.32142857142857, -- [39]
+				97.32142857142857, -- [40]
+				95.53571428571429, -- [41]
+				94.64285714285714, -- [42]
+				94.64285714285714, -- [43]
+				94.64285714285714, -- [44]
+				92.85714285714286, -- [45]
+				92.85714285714286, -- [46]
+				91.07142857142857, -- [47]
+				90.17857142857143, -- [48]
+				90.17857142857143, -- [49]
+				90.17857142857143, -- [50]
+			},
+			["LastEvents"] = {
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [1]
+				"Маназмей Атака ближнего боя Yadomaru Crit -2 (Physical)", -- [2]
+				"Yadomaru Печать праведности Маназмей Hit -2 (Holy)", -- [3]
+				"Yadomaru Атака ближнего боя Маназмей Hit -11 (Physical)", -- [4]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [5]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [6]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [7]
+				"Yadomaru Печать праведности Маназмей Hit -2 (Holy)", -- [8]
+				"Yadomaru Атака ближнего боя Маназмей Hit -12 (Physical)", -- [9]
+				"Маназмей Атака ближнего боя Yadomaru Dodge", -- [10]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [11]
+				"Маназмей Атака ближнего боя Yadomaru Dodge", -- [12]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [13]
+				"Yadomaru Печать праведности Маназмей Hit -2 (Holy)", -- [14]
+				"Yadomaru Атака ближнего боя Маназмей Hit -11 (Physical)", -- [15]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [16]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [17]
+				"Yadomaru Печать праведности Маназмей Hit -2 (Holy)", -- [18]
+				"Yadomaru Атака ближнего боя Маназмей Hit -11 (Physical)", -- [19]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [20]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [21]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [22]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [23]
+				"Yadomaru Печать праведности Маназмей Hit -2 (Holy)", -- [24]
+				"Yadomaru Атака ближнего боя Маназмей Crit -20 (Physical)", -- [25]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [26]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [27]
+				"Yadomaru Печать праведности Маназмей Hit -2 (Holy)", -- [28]
+				"Yadomaru Атака ближнего боя Маназмей Crit -20 (Physical)", -- [29]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [30]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [31]
+				"Yadomaru Печать праведности Маназмей Hit -2 (Holy)", -- [32]
+				"Yadomaru Атака ближнего боя Маназмей Hit -10 (Physical)", -- [33]
+				"Yadomaru Печать праведности Кошка Hit -2 (Holy)", -- [34]
+				"Yadomaru Атака ближнего боя Кошка Hit -10 (Physical)", -- [35]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [36]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [37]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [38]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [39]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [40]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [41]
+				"Маназмей Атака ближнего боя Yadomaru Miss", -- [42]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [43]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [44]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [45]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [46]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [47]
+				"Yadomaru Печать праведности Маназмей Hit -2 (Holy)", -- [48]
+				"Yadomaru Атака ближнего боя Маназмей Hit -11 (Physical)", -- [49]
+				"Маназмей Атака ближнего боя Yadomaru Hit -1 (Physical)", -- [50]
+			},
+			["Name"] = "Yadomaru",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				false, -- [8]
+				false, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				true, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				220307.564, -- [1]
+				220307.574, -- [2]
+				220308.568, -- [3]
+				220308.568, -- [4]
+				220309.54, -- [5]
+				220309.541, -- [6]
+				220309.56, -- [7]
+				220311.463, -- [8]
+				220311.463, -- [9]
+				220311.509, -- [10]
+				220311.51, -- [11]
+				220313.532, -- [12]
+				220313.567, -- [13]
+				220314.402, -- [14]
+				220314.402, -- [15]
+				220315.543, -- [16]
+				220315.544, -- [17]
+				220317.282, -- [18]
+				220317.282, -- [19]
+				220317.528, -- [20]
+				220317.582, -- [21]
+				220319.544, -- [22]
+				220319.545, -- [23]
+				220320.154, -- [24]
+				220320.154, -- [25]
+				220321.532, -- [26]
+				220321.532, -- [27]
+				220323.073, -- [28]
+				220323.074, -- [29]
+				220323.547, -- [30]
+				220325.533, -- [31]
+				220325.935, -- [32]
+				220325.936, -- [33]
+				220371.671, -- [34]
+				220371.672, -- [35]
+				220299.492, -- [36]
+				220299.503, -- [37]
+				220299.539, -- [38]
+				220301.534, -- [39]
+				220301.534, -- [40]
+				220301.582, -- [41]
+				220303.583, -- [42]
+				220303.583, -- [43]
+				220303.584, -- [44]
+				220305.581, -- [45]
+				220305.581, -- [46]
+				220305.582, -- [47]
+				220305.805, -- [48]
+				220305.806, -- [49]
+				220307.563, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["TimeSpent"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 0,
+								},
+								["Печать праведности"] = {
+									["count"] = 15.91,
+								},
+							},
+							["amount"] = 15.91,
+						},
+					},
+					["DamageTaken"] = 3,
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Волшебный поток"] = {
+							["Details"] = {
+								["Yadomaru"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 15.91,
+					["ElementTaken"] = {
+						["Melee"] = 3,
+					},
+					["Damage"] = 46,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["WhoDamaged"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 7,
+									["count"] = 5,
+									["amount"] = 41,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 41,
+						},
+						["Печать праведности"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 5,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 5,
+						},
+					},
+					["DamagedWho"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 41,
+								},
+								["Печать праведности"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 46,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Yadomaru"] = {
+							["Details"] = {
+								["Волшебный поток"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["TimeDamage"] = 15.91,
+					["TimeDamaging"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 0,
+								},
+								["Печать праведности"] = {
+									["count"] = 15.91,
+								},
+							},
+							["amount"] = 15.91,
+						},
+					},
+					["ManaGain"] = 8,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 41,
+						["Holy"] = 5,
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 58,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 58,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 157,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 135,
+						["Holy"] = 22,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 62,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 62,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 135,
+								},
+								["Печать праведности"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 157,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 62,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 62,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Yadomaru"] = {
+							["Details"] = {
+								["Волшебный поток"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Волшебный поток"] = {
+							["Details"] = {
+								["Yadomaru"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3.37,
+								},
+								["Печать праведности"] = {
+									["count"] = 34.13,
+								},
+							},
+							["amount"] = 37.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 37.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 20,
+									["min"] = 20,
+									["count"] = 2,
+									["amount"] = 40,
+								},
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 9,
+									["count"] = 9,
+									["amount"] = 95,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 135,
+						},
+						["Печать праведности"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 11,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 22,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 37.5,
+					["TimeDamaging"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3.37,
+								},
+								["Печать праведности"] = {
+									["count"] = 34.13,
+								},
+							},
+							["amount"] = 37.5,
+						},
+					},
+					["ManaGain"] = 11,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 37,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 39,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 37,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 129,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 107,
+						["Holy"] = 22,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 39,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 39,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 107,
+								},
+								["Печать праведности"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 129,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 37,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 39,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 39,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3.51,
+								},
+								["Печать праведности"] = {
+									["count"] = 34.24,
+								},
+							},
+							["amount"] = 37.74999999999999,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 37.74999999999999,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 8,
+									["count"] = 10,
+									["amount"] = 89,
+								},
+								["Crit"] = {
+									["max"] = 18,
+									["min"] = 18,
+									["count"] = 1,
+									["amount"] = 18,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 107,
+						},
+						["Печать праведности"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 11,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 22,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 37.74999999999999,
+					["TimeDamaging"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3.51,
+								},
+								["Печать праведности"] = {
+									["count"] = 34.24,
+								},
+							},
+							["amount"] = 37.74999999999999,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 7,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 7,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 47,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 42,
+						["Holy"] = 5,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 42,
+								},
+								["Печать праведности"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 2.92,
+								},
+								["Печать праведности"] = {
+									["count"] = 16.11,
+								},
+							},
+							["amount"] = 19.03,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 19.03,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 7,
+									["count"] = 5,
+									["amount"] = 42,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 42,
+						},
+						["Печать праведности"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 5,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 5,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 19.03,
+					["TimeDamaging"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 2.92,
+								},
+								["Печать праведности"] = {
+									["count"] = 16.11,
+								},
+							},
+							["amount"] = 19.03,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 12,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 10,
+						["Holy"] = 2,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Кошка"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 10,
+								},
+								["Печать праведности"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Кошка"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 0,
+								},
+								["Печать праведности"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10,
+						},
+						["Печать праведности"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Кошка"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 0,
+								},
+								["Печать праведности"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 12,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 10,
+						["Holy"] = 2,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Кошка"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 10,
+								},
+								["Печать праведности"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Кошка"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 0,
+								},
+								["Печать праведности"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10,
+						},
+						["Печать праведности"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Кошка"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 0,
+								},
+								["Печать праведности"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 9.800000000000001,
+								},
+								["Печать праведности"] = {
+									["count"] = 100.39,
+								},
+							},
+							["amount"] = 110.19,
+						},
+						["Кошка"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 0,
+								},
+								["Печать праведности"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamageTaken"] = 105,
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 116,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 116,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Волшебный поток"] = {
+							["Details"] = {
+								["Yadomaru"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 116,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 116,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 113.69,
+					["ElementTaken"] = {
+						["Melee"] = 105,
+					},
+					["Damage"] = 391,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 8,
+								},
+								["Miss"] = {
+									["count"] = 7,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 97,
+								},
+							},
+							["amount"] = 116,
+						},
+					},
+					["WhoDamaged"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 105,
+								},
+							},
+							["amount"] = 105,
+						},
+					},
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 20,
+									["min"] = 18,
+									["count"] = 3,
+									["amount"] = 58,
+								},
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 7,
+									["count"] = 30,
+									["amount"] = 277,
+								},
+							},
+							["count"] = 36,
+							["amount"] = 335,
+						},
+						["Печать праведности"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 1,
+									["count"] = 33,
+									["amount"] = 56,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 56,
+						},
+					},
+					["DamagedWho"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 325,
+								},
+								["Печать праведности"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 379,
+						},
+						["Кошка"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 10,
+								},
+								["Печать праведности"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Yadomaru"] = {
+							["Details"] = {
+								["Волшебный поток"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["TimeDamage"] = 113.69,
+					["TimeDamaging"] = {
+						["Маназмей"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 9.800000000000001,
+								},
+								["Печать праведности"] = {
+									["count"] = 100.39,
+								},
+							},
+							["amount"] = 110.19,
+						},
+						["Кошка"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 0,
+								},
+								["Печать праведности"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 19,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 335,
+						["Holy"] = 56,
+					},
+				},
+			},
+			["UnitLockout"] = 1673783071,
+			["LastActive"] = 1673783296,
+		},
+	},
+	["FightNum"] = 5,
+	["CombatTimes"] = {
+		{
+			1673783071, -- [1]
+			1673783084, -- [2]
+			"17:44:31", -- [3]
+			"17:44:44", -- [4]
+			"Маназмей", -- [5]
+		}, -- [1]
+		{
+			1673783091, -- [1]
+			1673783107, -- [2]
+			"17:44:51", -- [3]
+			"17:45:07", -- [4]
+			"Маназмей", -- [5]
+		}, -- [2]
+		{
+			1673783114, -- [1]
+			1673783160, -- [2]
+			"17:45:14", -- [3]
+			"17:46:00", -- [4]
+			"Маназмей", -- [5]
+		}, -- [3]
+		{
+			1673783190, -- [1]
+			1673783250, -- [2]
+			"17:46:31", -- [3]
+			"17:47:30", -- [4]
+			"Маназмей", -- [5]
+		}, -- [4]
+		{
+			1673783296, -- [1]
+			1673783303, -- [2]
+			"17:48:16", -- [3]
+			"17:48:23", -- [4]
+			"Кошка", -- [5]
+		}, -- [5]
+	},
+	["FoughtWho"] = {
+		"Кошка 17:48:16-17:48:23", -- [1]
+		"Маназмей 17:46:31-17:47:30", -- [2]
+		"Маназмей 17:45:14-17:46:00", -- [3]
+		"Маназмей 17:44:51-17:45:07", -- [4]
+		"Маназмей 17:44:31-17:44:44", -- [5]
+	},
+}

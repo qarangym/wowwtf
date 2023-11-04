@@ -1,0 +1,6 @@
+Poisoner: disabled
+ComboPointsRedux_Options: disabled
+ComboPointsRedux: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+Recount: enabled

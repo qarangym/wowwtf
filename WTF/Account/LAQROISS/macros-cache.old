@@ -1,0 +1,5 @@
+MACRO 1 "Кровоотвод + " Spell_DeathKnight_BloodTap
+#showtooltip
+/cast Кровоотвод
+/cancelaura Кровоотвод
+END

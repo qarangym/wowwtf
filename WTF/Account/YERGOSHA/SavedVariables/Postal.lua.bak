@@ -1,0 +1,10 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Yergosha - Icecrown"] = "Yergosha - Icecrown",
+	},
+	["profiles"] = {
+		["Yergosha - Icecrown"] = {
+		},
+	},
+}

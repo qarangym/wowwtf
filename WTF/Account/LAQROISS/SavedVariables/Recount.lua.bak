@@ -1,0 +1,33 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Mazdalama - Icecrown"] = "Mazdalama - Icecrown",
+	},
+	["profiles"] = {
+		["Mazdalama - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -235.456919697857,
+					["x"] = 557.4320263323698,
+					["w"] = 216.6420560596189,
+					["h"] = 138.3704204399611,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 216.6420560596189,
+			["MainWindowHeight"] = 138.3704204399611,
+			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Вершина Утгард",
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

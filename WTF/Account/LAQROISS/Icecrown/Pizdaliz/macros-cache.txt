@@ -1,0 +1,52 @@
+MACRO 16777236 "1" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast Кровожадность
+/cast !Удар героя(Уровень 13)
+END
+MACRO 16777237 "2" INV_Misc_QuestionMark
+#showtooltip
+/cast Вихрь
+/cast !Удар героя(Уровень 13)
+END
+MACRO 16777238 "3" INV_Misc_QuestionMark
+#showtooltip
+/cast Мощный удар(Уровень 8)
+/cast !Удар героя(Уровень 13)
+END
+MACRO 16777239 "4" INV_Misc_QuestionMark
+#showtooltip
+/cast Казнь(Уровень 9)
+/cast !Удар героя(Уровень 13)
+END
+MACRO 16777240 "5" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast Кровожадность
+/cast !Рассекающий удар(Уровень 8)
+END
+MACRO 16777241 "6" INV_Misc_QuestionMark
+#showtooltip
+/cast Вихрь
+/cast !Рассекающий удар(Уровень 8)
+END
+MACRO 16777243 "7" INV_Misc_QuestionMark
+#showtooltip
+/cast Мощный удар(Уровень 8)
+/cast !Рассекающий удар(Уровень 8)
+END
+MACRO 16777244 "8" INV_Misc_QuestionMark
+#showtooltip
+/cast Казнь(Уровень 9)
+/cast !Рассекающий удар(Уровень 8)
+END
+MACRO 16777246 "aoe" INV_Misc_QuestionMark
+#showtooltip
+/cast Раскол брони
+/cast !Рассекающий удар(Уровень 8)
+END
+MACRO 16777245 "solo" INV_Misc_QuestionMark
+#showtooltip
+/cast Раскол брони
+/cast !Удар героя(Уровень 13)
+END

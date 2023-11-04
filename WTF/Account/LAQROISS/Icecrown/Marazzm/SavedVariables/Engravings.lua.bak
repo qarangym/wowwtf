@@ -1,0 +1,6 @@
+
+EngravingsDBPC = {
+	["Wowhead score (Frost DPS):"] = true,
+	["Wowhead score (Frost Tank):"] = true,
+	["Wowhead score (Blood):"] = true,
+}

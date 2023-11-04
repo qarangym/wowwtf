@@ -1,0 +1,41 @@
+MACRO 16777224 "CANCEL" INV_Misc_QuestionMark
+/equipslot 17 item:50012
+END
+MACRO 16777226 "hysteria" INV_Misc_QuestionMark
+/w Eljean HYSTERIA TO ME!!!
+END
+MACRO 16777222 "instpois" INV_Misc_QuestionMark
+/use Instant Poison IX
+/use item:50737
+END
+MACRO 16777223 "instpois2" INV_Misc_QuestionMark
+/use Instant Poison IX
+/use item:50012
+END
+MACRO 16777219 "ORC" INV_Misc_QuestionMark
+#showtooltip
+/cast Blood Fury(Racial)
+/use 10
+END
+MACRO 16777221 "pois" INV_Misc_QuestionMark
+/use Deadly Poison IX
+/use Scourgeborne Waraxe 
+END
+MACRO 16777227 "SS" INV_Misc_QuestionMark
+/cancelaura tricks of the trade
+END
+MACRO 16777220 "vanish" INV_Misc_QuestionMark
+/cast Vanish(Rank 3)
+/cancelaura Stealth
+MACRO 16777219 "aoe" INV_Misc_QuestionMark
+#showtooltip Веер клинков
+/equipslot 17  Зов хаоса, топор королей Лордерона
+/cast веер клинков
+END
+MACRO 16777218 "burst" INV_Misc_QuestionMark
+#showtooltip
+/cast 10 
+/cast Берсерк
+END
+
+

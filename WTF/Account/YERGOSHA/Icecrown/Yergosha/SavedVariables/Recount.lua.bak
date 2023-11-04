@@ -1,0 +1,259 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Yergosha"] = {
+			["GUID"] = "0x070000000084220A",
+			["LastEventHealth"] = {
+				"18563 (100%)", -- [1]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["enClass"] = "MAGE",
+			["unit"] = "Yergosha",
+			["level"] = 80,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				6.146635780854388, -- [1]
+			},
+			["type"] = "Self",
+			["Owner"] = false,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+			},
+			["LastEvents"] = {
+				"Coopprix Символ Света небес Yergosha Hit +1141 (1141 избыт. лечение)", -- [1]
+			},
+			["Name"] = "Yergosha",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				215395.531, -- [1]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1670171631,
+			["LastActive"] = 1670171631,
+		},
+		["Осквернитель из рода Бесконечности"] = {
+			["GUID"] = "0xF130007E110001C1",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					1319, -- [1]
+				},
+				["TimeDamage"] = {
+					3.5, -- [1]
+				},
+				["DOT_Time"] = {
+					3, -- [1]
+				},
+				["ActiveTime"] = {
+					3.5, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["TimeLast"] = {
+				["ActiveTime"] = 1670171230,
+				["TimeDamage"] = 1670171230,
+				["OVERALL"] = 1670171230,
+				["DOT_Time"] = 1670171230,
+				["Damage"] = 1670171230,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 214995.251,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"Осквернитель из рода Бесконечности Разъедающая гниль (УЗВ) Klainder Tick -1319 (387 сопрот.) (232 Поглощено) (Shadow)", -- [1]
+			},
+			["Name"] = "Осквернитель из рода Бесконечности",
+			["LastEventIncoming"] = {
+				false, -- [1]
+			},
+			["LastEventTimes"] = {
+				214995.251, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Разъедающая гниль (УЗВ)"] = {
+							["Details"] = {
+								["Klainder"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 387,
+					},
+					["TimeSpent"] = {
+						["Klainder"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementDoneAbsorb"] = {
+						["Shadow"] = 232,
+					},
+					["Attacks"] = {
+						["Разъедающая гниль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1319,
+									["min"] = 1319,
+									["count"] = 1,
+									["amount"] = 1319,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1319,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 1319,
+					},
+					["DamagedWho"] = {
+						["Klainder"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 1319,
+								},
+							},
+							["amount"] = 1319,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["TimeDamaging"] = {
+						["Klainder"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["DOT_Time"] = 3,
+					["Damage"] = 1319,
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Разъедающая гниль (УЗВ)"] = {
+							["Details"] = {
+								["Klainder"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 387,
+					},
+					["TimeSpent"] = {
+						["Klainder"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementDoneAbsorb"] = {
+						["Shadow"] = 232,
+					},
+					["Attacks"] = {
+						["Разъедающая гниль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1319,
+									["min"] = 1319,
+									["count"] = 1,
+									["amount"] = 1319,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1319,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 1319,
+					},
+					["DamagedWho"] = {
+						["Klainder"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 1319,
+								},
+							},
+							["amount"] = 1319,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["TimeDamaging"] = {
+						["Klainder"] = {
+							["Details"] = {
+								["Разъедающая гниль (УЗВ)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["DOT_Time"] = 3,
+					["Damage"] = 1319,
+				},
+			},
+			["UnitLockout"] = 1670171230,
+			["LastActive"] = 1670171230,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

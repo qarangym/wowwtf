@@ -1,0 +1,15 @@
+Version: 1
+Frame: WorldMapScreenAnchor
+FrameLevel: 0
+Anchor: TOPLEFT
+X: 10
+Y: -118
+W: 1
+H: 1
+Frame: AtlasLootDefaultFrame
+FrameLevel: 18
+Anchor: CENTER
+X: -18
+Y: -2
+W: 600
+H: 690

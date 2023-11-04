@@ -1,0 +1,29 @@
+MACRO 16777225 "asddsa" INV_Misc_QuestionMark
+/cancelaura Misdirection
+END
+MACRO 16777220 "call of the wild" INV_Misc_QuestionMark
+/cast Call of the Wild
+END
+MACRO 16777228 "cap+pot" INV_Misc_QuestionMark
+/use Flame Cap
+/use Potion of Speed
+END
+MACRO 16777218 "ks" INV_Misc_QuestionMark
+/tar Blood Beast
+/cast Kill Shot(Rank 3)
+/targetlasttarget
+END
+MACRO 16777223 "ks2" INV_Misc_QuestionMark
+/tar Living Ember
+/cast Kill Shot(Rank 3)
+/targetlasttarget
+END
+MACRO 16777226 "ks3" INV_Misc_QuestionMark
+/tar Drudge Ghoul
+/cast Kill Shot(Rank 3)
+/targetlasttarget
+END
+MACRO 16777227 "md" INV_Misc_QuestionMark
+#showtooltip Misdirection
+/cast [@mouseover,help,nodead][target=focus, help]Misdirection
+END

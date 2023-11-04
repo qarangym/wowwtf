@@ -1,0 +1,3 @@
+MACRO 16777218 "dmg" INV_Misc_QuestionMark
+/recount show
+END

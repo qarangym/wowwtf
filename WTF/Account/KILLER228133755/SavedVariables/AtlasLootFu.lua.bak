@@ -1,0 +1,11 @@
+
+AtlasLootFuDB = {
+	["profiles"] = {
+		["Default"] = {
+			["minimapPosition"] = 194.2043671584775,
+			["detachedTooltip"] = {
+				["fontSizePercent"] = 1,
+			},
+		},
+	},
+}
